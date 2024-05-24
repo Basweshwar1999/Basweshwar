@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar'; // Assuming Navbar.js is in the same directory
+// import Navbar from './Navbar'; // Assuming Navbar.js is in the same directory
 import '../Styles/Style.css'; // Import your CSS stylesheet
 
 function Home({ isActive }) {

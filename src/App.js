@@ -18,20 +18,20 @@ const AuthContext = createContext({ isLoggedIn: false, setIsLoggedIn: () => {} }
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false); // Initial login state
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  // const [username, setUsername] = useState('');
+  // const [password, setPassword] = useState('');
 
-  const handleLogin = (event) => {
-    event.preventDefault(); // Prevent default form submission behavior
+  // const handleLogin = (event) => {
+  //   event.preventDefault(); // Prevent default form submission behavior
 
-    // Check for specific username and password
-    if (username === 'basweshwar' && password === 'Rutik@1902') {
-      // Login successful
-      setIsLoggedIn(true);
-    } else {
-      alert('Invalid username or password');
-    }
-  };
+  //   // Check for specific username and password
+  //   if (username === 'basweshwar' && password === 'Rutik@1902') {
+  //     // Login successful
+  //     setIsLoggedIn(true);
+  //   } else {
+  //     alert('Invalid username or password');
+  //   }
+  // };
 
   return (
     <AuthContext.Provider value={{ isLoggedIn, setIsLoggedIn }}>

@@ -20,7 +20,7 @@ function About() {
         {/* Team Section (Optional) */}
         <div className="about-team">
           <h2>Meet Our Team</h2>
-          <img src={teamImage} alt="Team Photo" className="team-image" />
+          <img src={teamImage} alt="Team" className="team-image" />
           <p>
             We are a diverse group of individuals with a shared passion for [Your Industry/Focus]. From our [Department 1] team to our [Department 2] team, we bring a wealth of experience and creativity to the table.
           </p>
@@ -29,8 +29,8 @@ function About() {
 
       {/* Call to Action Section (Optional) */}
       <div className="about-cta">
-        <a href="#" className="cta-button">Learn More</a>
-        <a href="#" className="cta-button">Contact Us</a>
+        <a href="https://gemini.google.com/app/50a9a7cfe78006fc" className="cta-button">Learn More</a>
+        <a href="https://gemini.google.com/app/50a9a7cfe78006fc" className="cta-button">Contact Us</a>
       </div>
     </div>
   );
