@@ -21,7 +21,7 @@ function Navbar() {
 
   const handleLogout = () => {
     setIsLoggedIn(false); // Update login state in context
-    navigate('/login'); // Redirect to login page
+    navigate('/'); // Redirect to login page
   };
 
   return (
@@ -30,7 +30,7 @@ function Navbar() {
        <span className="navbar-name">Basweshwar</span>
       <ul style={{marginLeft:'40%'}}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
@@ -42,7 +42,7 @@ function Navbar() {
           <Link to="/projects">Projects</Link>
         </li>
         {isLoggedIn && ( // Conditionally render logout button if logged in
-        <Link to="/login" onClick={handleLogout}>
+        <Link to="/" onClick={handleLogout}>
           Logout
         </Link>
       )}

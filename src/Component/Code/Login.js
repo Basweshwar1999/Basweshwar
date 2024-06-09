@@ -61,7 +61,7 @@ const Login = () => {
     if (username === 'basweshwar' && password === 'Rutik@1902') {
       // Login successful
       setIsLoggedIn(true); // Update context to trigger redirection
-      navigate('/'); // Redirect to home page
+      navigate('/home'); // Redirect to home page
     } else {
       alert('Invalid username or password');
     }
@@ -69,6 +69,7 @@ const Login = () => {
 
   return (
     <div className={classes.root} style={{ backgroundImage: `url("./r1.png")` }}>
+         <span className="navbar-name" style={{position:'fixed',top:"10%" , left:"40%"}}>Basweshwar</span>
       <Paper className={classes.paper}>
         <Typography variant="h4" align="center" gutterBottom>
           Login

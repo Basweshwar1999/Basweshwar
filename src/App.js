@@ -1,5 +1,5 @@
 import React, { useState, createContext } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginPage from './Component/Code/Login';
 import HomePage from './Component/Code/Home';
 import About from './Component/Code/About';
@@ -40,7 +40,7 @@ function App() {
           {isLoggedIn && <Navbar />} {/* Conditionally render navbar */}
           <div className="body" style={{backgroundImage:logoImage}}> {/* Container for body content */}
             <Routes>
-              <Route
+              {/* <Route
                 path="/login"
                 element={
                 <LoginPage />
@@ -51,8 +51,8 @@ function App() {
                 //     />
                  
                 }
-              />
-              <Route
+              /> */}
+              {/* <Route
                 path="/"
                 element={
                   isLoggedIn ? (
@@ -61,7 +61,9 @@ function App() {
                     <Navigate to="/login" replace />
                   )
                 }
-              />
+              /> */}
+              <Route path="/" element={<LoginPage />} />
+             <Route path="/home" element={<HomePage />} />
               <Route path="/about" element={<About />} />
               <Route path="/Profile" element={<Profile />} />
               <Route path="/projects" element={<Projects />} />
