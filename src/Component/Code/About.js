@@ -14,13 +14,13 @@ function About() {
           </p>
           <p>
             Our team comprises experienced professionals with expertise in [List Skills/Areas of Expertise]. We are committed to providing [Your Products or Services] that are [Benefits/Qualities of Offerings]. Whether you're [Target Audience Need] or [Another Target Audience Need], we have the solutions to help you achieve your goals.
-          </p>
+          </p> 
         </div>
 
         {/* Team Section (Optional) */}
         <div className="about-team">
           <h2>Meet Our Team</h2>
-          <img src={teamImage} alt="Team" className="team-image" />
+          <img src={teamImage} alt="Team" className="team-image"  style={{boxShadow: '4px 0 4px 6px rgba(0, 0, 0, 0.5)'}} />
           <p>
             We are a diverse group of individuals with a shared passion for [Your Industry/Focus]. From our [Department 1] team to our [Department 2] team, we bring a wealth of experience and creativity to the table.
           </p>

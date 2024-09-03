@@ -222,7 +222,7 @@ body {
     font-size: 14px;
   }
   
-/* Home.css */
+/* Home.css */ 
 
 /* .home-container {
   display: flex;
@@ -294,10 +294,15 @@ main {
 
 /* Home content section */
 .home-content {
-  background-color: #e6c48a; /* Light gray background */
+  background-color: #f5f3ef; /* Light gray background */
   padding: 20px;
   border-radius: 5px;
   margin-top: 20px;
+  margin-left: 30px;
+}
+.home-content:hover {
+  transform: translateY(15px);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .home-content h2 {
@@ -444,6 +449,7 @@ main {
   border-radius: 5px; /* Rounded corners for the team image */
   width: 80%; /* Adjust image width to fit the section */
   margin: 0 auto; /* Center the image horizontally */
+  
 }
 
 .about-cta {
@@ -528,3 +534,58 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
 }
 /* end create acccount page  */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Width of each card */
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  color: #007acc;
+}
+
+.project-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

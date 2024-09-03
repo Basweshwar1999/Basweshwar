@@ -15,7 +15,7 @@ function Home({ isActive }) {
           </div>
         </section>
         <div style={{display:'flex',justifyContent:'space-around'}}> 
-        <section className="home-content" style={{  boxShadow: '4px 0 4px 6px rgba(0, 0, 0, 0.5)',}}>
+        <section className="home-content" style={{  boxShadow: '4px 0 4px 6px rgba(0, 0, 0, 0.3)',}}>
           <h2>What I Do</h2>
           <p>
             (Describe your development expertise and the kind of projects you work on). 
@@ -25,7 +25,7 @@ function Home({ isActive }) {
             (Highlight your unique strengths and value proposition as a developer). 
           </p>
         </section>
-        <section className="home-content"  style={{  boxShadow: '4px 0 4px 6px rgba(0, 0, 0, 0.5)',}}>
+        <section className="home-content"  style={{  boxShadow: '4px 0 4px 6px rgba(0, 0, 0, 0.3)',}}>
           <h2>What I Do</h2>
           <p>
             (Describe your development expertise and the kind of projects you work on). 
