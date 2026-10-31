@@ -1,6 +1,5 @@
 import React from 'react';
-import teamImage from '../Images/r1.png'; // Replace with your team image path
-
+import teamImage from '../Images/r1.png';  
 function About() {
   return (
     <div className="about-container">
@@ -10,7 +9,7 @@ function About() {
           <h1 className="about-heading">About Us</h1>
           <p className="about-slogan">Empowering Developers  Through Various Solutions</p>
           <p>
-            [Your Company Name] is a team of passionate individuals dedicated to [Your Mission Statement]. We believe in [Your Core Values] and strive to [Your Goals]. Founded in [Year Founded] by [Founder(s) Name(s)], we have a track record of [Highlight Achievements].
+             Knovaone  is a team of passionate individuals dedicated to [Your Mission Statement]. We believe in [Your Core Values] and strive to [Your Goals]. Founded in [Year Founded] by [Founder(s) Name(s)], we have a track record of [Highlight Achievements].
           </p>
           <p>
             Our team comprises experienced professionals with expertise in [List Skills/Areas of Expertise]. We are committed to providing [Your Products or Services] that are [Benefits/Qualities of Offerings]. Whether you're [Target Audience Need] or [Another Target Audience Need], we have the solutions to help you achieve your goals.
