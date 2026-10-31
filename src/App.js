@@ -8,7 +8,7 @@ import Projects from './Component/Code/Projects';
 import Navbar from './Component/Code/Navbar';
 import Footer from './Component/Code/Footer';
 import Profile from './Component/Code/Profile'; // Assuming you have a ProfileSidebar component
-import CreateAccount from './Component/Code/CreateAccount'; // Assuming you have a ProfileSidebar component
+import CreateAccount from './Component/Code/CreateAccount';  
 import logoImage from './Component/Images/download.png'; // Replace with your logo path
 
 import './Component/Styles/Style.css';
