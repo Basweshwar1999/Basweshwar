@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import logoImage from '../Images/1st.MOV'; // Replace with your logo path
+import logoImage from '../Images/1st.MOV'; 
 
 function Contact() {
   const videoRef = useRef(null);
